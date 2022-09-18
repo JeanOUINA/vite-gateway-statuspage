@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Eggsample Status
+title: Vite Gateways Status
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -51,7 +51,7 @@ title: Eggsample Status
 #
 # We recommend to keep this at `true`.
 # BOOLEAN; `true`, `false`
-buildFuture: true
+buildFuture: false
 
 # What language do you want to use for the
 # html[lang] definition?
@@ -97,7 +97,7 @@ defaultContentLanguage: en
 #
 # Broken example:
 # baseUrl: /
-baseURL: https://example.com
+baseURL: https://gateways-status.thomiz.dev
 
 # For features like Last modified, you
 # need to use a Git repository. If you
@@ -143,12 +143,9 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: North Coast
-      description: The main servers are located here.
+    - name: ExperimentDAO
+      description: The Most Advanced Gateway DAO on VITE. As a gateway, eDAO bridges external cryptocurrencies making a real change in the crypto ecosystem.
       closed: true
-    - name: Empty Category
-    - name: Uncategorized
-      untitled: true
 
   # These are your systems. Change them to
   # change the amount of components.
@@ -159,19 +156,7 @@ params:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
     - name: Gateway
-      category: North Coast
-    - name: Backup Gateway
-      category: North Coast
-    - name: Website
-      description: The web frontend for the application.
-      category: Uncategorized
-      link: https://example.com/
-    - name: API
-      description: The guts of the application.
-      category: Uncategorized
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
-      category: Uncategorized
+      category: ExperimentDAO
 
   # What date format to use?
   #
@@ -276,7 +261,7 @@ params:
   #
   # Default: `false`
   # BOOLEAN; `true`, `false`
-  useLogo: true
+  useLogo: false
 
   # Where is the logo located, if one is
   # present at all?
@@ -292,7 +277,7 @@ params:
   # on the footer and meta tags.
   #
   # Default: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
-  description: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
+  description: This webpage continuously monitor all gateways on vite.
 
   # Tabs on homepage
   # Uncomment to enable.
