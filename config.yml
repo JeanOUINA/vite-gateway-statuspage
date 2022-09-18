@@ -111,7 +111,6 @@ baseURL: https://gateways-status.thomiz.dev
 # BOOLEAN; `true`, `false`
 enableGitInfo: true
 
-
 ############################################################
 # +------------------------------------------------------+ #
 # |                   Preferences                        | #
@@ -139,12 +138,36 @@ params:
   #   Or it can be used alongside other categories.
   #
   # These are case sensitive.
-  # 
+  #
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
     - name: ExperimentDAO
-      description: The Most Advanced Gateway DAO on VITE. As a gateway, eDAO bridges external cryptocurrencies making a real change in the crypto ecosystem.
+      description: The Most Advanced Gateway DAO on VITE. As a gateway, eDAO bridges
+        external cryptocurrencies making a real change in the crypto ecosystem.
+      closed: true
+    - name: GateK
+      description: A Gateway DAO on Vite that bridges revolutionary networks.
+      closed: true
+    - name: VGATE
+      description: As an operator of ViteX, VGATE is responsible for listing coins, deposit
+        and withdrawal, cryptocurrency marketing and promoting and other
+        services within VGATE's own marketing area.VGATE has complete
+        capabilities as an operator, namely the capabilities of operating VGATE
+        and its cryptos. In addition to helping users list cryptos, deposit and
+        withdraw, and adjust transaction fees, VGATE can also mint coins, help
+        other operators mint coins and run their gateways.
+      closed: true
+    - name: ViNo
+      description: ViNo Gateway runs cross-chain services for various cryptocurrencies on
+        Vitex
+      closed: true
+    - name: Vite Gateway
+      description: "Vite Gateway runs cross-chain services for four coins: BTC, ETH,
+        USDT(ERC20)"
+      closed: true
+    - name: XGate
+      description: XGate runs cross-chain services for various cryptocurrencies on Vitex
       closed: true
 
   # These are your systems. Change them to
@@ -155,8 +178,194 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: Gateway
+    - name: Terra (LUNA-002) [TERRA]
       category: ExperimentDAO
+    - name: TerraUSD (UST) [TERRA]
+      category: ExperimentDAO
+    - name: Luna (LUNA-003) [TERRA2]
+      category: ExperimentDAO
+    - name: Saito (SAITO) [BSC]
+      category: ExperimentDAO
+    - name: Vitamin Coin (VITC) [BSC]
+      category: ExperimentDAO
+    - name: VITCWONE LP (VITCWONE) [ONE]
+      category: ExperimentDAO
+    - name: Wax (WAXP) [WAX]
+      category: ExperimentDAO
+    - name: Fantom (FTM) [FTM]
+      category: ExperimentDAO
+    - name: Avalanche (AVAX) [AVAX]
+      category: ExperimentDAO
+    - name: ViCat (VICAT) [BSC]
+      category: ExperimentDAO
+    - name: Ananos (ANA) [ANA]
+      category: ExperimentDAO
+    - name: Manangos (MANGO) [XLM]
+      category: ExperimentDAO
+    - name: VITCWBNB LP (VITCWBNB) [BSC]
+      category: ExperimentDAO
+    - name: ViCatBNB LP (VICATBNB) [BSC]
+      category: ExperimentDAO
+    - name: Autentk (AUTK) [BSC]
+      category: ExperimentDAO
+    - name: VITCWUST LP (VITCWUST) [TERRA]
+      category: ExperimentDAO
+    - name: Render Token (RNDR) [ETH]
+      category: ExperimentDAO
+    - name: Hummingbot (HBOT) [ETH]
+      category: ExperimentDAO
+    - name: Bend DAO (BEND) [ETH]
+      category: ExperimentDAO
+    - name: Shiba Inu (SHIB) [ETH]
+      category: ExperimentDAO
+    - name: VIVA (VIVA) [BSC]
+      category: ExperimentDAO
+    - name: VIVABNB LP (VIVABNB) [BSC]
+      category: ExperimentDAO
+    - name: Dogecoin (DOGE-001) [DOGE]
+      category: ExperimentDAO
+    - name: Canto (CANTO) [CANTO]
+      category: ExperimentDAO
+    - name: Kaspa (KAS) [Kaspa]
+      category: GateK
+    - name: Hedera (HBAR) [Hedera]
+      category: GateK
+    - name: TERA (TERA) [TERA]
+      category: VGATE
+    - name: Bismuth (BIS) [BIS]
+      category: VGATE
+    - name: DERO (DERO) [DERO]
+      category: VGATE
+    - name: TurtleCoin (TRTL) [TURTLE]
+      category: VGATE
+    - name: Ergo (ERG) [ERGO]
+      category: VGATE
+    - name: Beam (BEAM) [BEAM]
+      category: VGATE
+    - name: Dune (DUN) [DUNE]
+      category: VGATE
+    - name: PegNet (PEG) [PEGNET]
+      category: VGATE
+    - name: pFCT_PegNet (PFCT-001) [PEGNET]
+      category: VGATE
+    - name: pUSD_PegNet (PUSD) [PEGNET]
+      category: VGATE
+    - name: pGOLD_PegNet (PGOLD-001) [PEGNET]
+      category: VGATE
+    - name: Litecash (CASH) [LITECASH]
+      category: VGATE
+    - name: Bitgrin (XBG) [XBG]
+      category: VGATE
+    - name: Banano (BAN) [BAN]
+      category: VGATE
+    - name: IxiCash (IXI) [IXI]
+      category: VGATE
+    - name: Defis (XGM) [DEFIS]
+      category: VGATE
+    - name: MoneroV (XMV) [XMV]
+      category: VGATE
+    - name: Robonomics Network (XRT) [ETH]
+      category: VGATE
+    - name: FLAMA (FMA) [ETH]
+      category: VGATE
+    - name: SparkPoint (SRK) [ETH]
+      category: VGATE
+    - name: Hathor (HTR) [HTR]
+      category: VGATE
+    - name: Epic Cash (EPIC-002) [EPIC]
+      category: VGATE
+    - name: DNAxCAT (DXCT) [BSC]
+      category: VGATE
+    - name: Nano (NANO-001) [NANO]
+      category: ViNo
+    - name: Banano (BAN-001) [BAN]
+      category: ViNo
+    - name: Ethereum (ETH) [ETH]
+      category: Vite Gateway
+    - name: Bitcoin (BTC) [BTC]
+      category: Vite Gateway
+    - name: Tether USD (USDT) [ETH]
+      category: Vite Gateway
+    - name: Grin (GRIN) [GRIN]
+      category: Vite Gateway
+    - name: Ankr (ANKR) [ETH]
+      category: Vite Gateway
+    - name: Binance USD (BUSD) [ETH]
+      category: Vite Gateway
+    - name: Ripple (XRP-001) [XRP]
+      category: Vite Gateway
+    - name: EOS (EOS-003) [EOS]
+      category: Vite Gateway
+    - name: Waves (WAVES) [WAVES]
+      category: Vite Gateway
+    - name: Tellor (TRB) [ETH]
+      category: Vite Gateway
+    - name: OKB (OKB-001) [ETH]
+      category: Vite Gateway
+    - name: Ferrum Network (FRM-001) [ETH]
+      category: Vite Gateway
+    - name: Harmony (ONE-001) [ONE]
+      category: Vite Gateway
+    - name: Bitcoin Cash (BCH-001) [BCH]
+      category: Vite Gateway
+    - name: Bitcoin SV (BSV) [BSV]
+      category: Vite Gateway
+    - name: Chainlink (LINK-001) [ETH]
+      category: Vite Gateway
+    - name: Monero (XMR) [XMR]
+      category: Vite Gateway
+    - name: KardiaChain (KAI) [ETH]
+      category: Vite Gateway
+    - name: Handshake (HNS) [HNS]
+      category: Vite Gateway
+    - name: Nami Corporation Token (NAMI) [ETH]
+      category: Vite Gateway
+    - name: Auto (AUTO) [BSC]
+      category: Vite Gateway
+    - name: HecoFi (HFI) [HECO]
+      category: Vite Gateway
+    - name: VITE (VITE) [ETH]
+      category: Vite Gateway
+    - name: ViteX Coin (VX) [BSC]
+      category: Vite Gateway
+    - name: Non Fungible Yearn (NFY) [ETH]
+      category: Vite Gateway
+    - name: Radicle (RAD) [ETH]
+      category: Vite Gateway
+    - name: Alchemist (MIST) [ETH]
+      category: Vite Gateway
+    - name: WaultSwap (WEX) [BSC]
+      category: Vite Gateway
+    - name: PantherSwap (PANTHER) [BSC]
+      category: Vite Gateway
+    - name: Binance Coin (BNB-001) [BSC]
+      category: Vite Gateway
+    - name: PAW (PAW) [PAW]
+      category: XGate
+    - name: PancakeSwap (CAKE) [BSC]
+      category: XGate
+    - name: Volt Inu (VOLT) [BSC]
+      category: XGate
+    - name: Uniswap (UNI) [ETH]
+      category: XGate
+    - name: Polygon (MATIC) [BSC]
+      category: XGate
+    - name: PooCoin (POOCOIN) [BSC]
+      category: XGate
+    - name: Minato (MNTO) [BSC]
+      category: XGate
+    - name: Gnosis (GNO) [Gnosis]
+      category: XGate
+    - name: Celo (CELO) [Celo]
+      category: XGate
+    - name: TRON (TRX) [TRX]
+      category: XGate
+    - name: Stellar (XLM) [XLM]
+      category: XGate
+    - name: VINUBNB PCS (VINUBNB) [BSC]
+      category: XGate
+    - name: VITA INU (VINU-001) [ETH]
+      category: XGate
 
   # What date format to use?
   #
@@ -194,7 +403,7 @@ params:
   # Default: `true`
   # BOOLEAN; `true`, `false`
   useRelativeTime: true
- 
+
   # If enabled, doesn't show seconds on relative times.
   #
   # With option ON (true):
