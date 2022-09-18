@@ -188,6 +188,10 @@ params:
       category: ExperimentDAO
     - name: Vitamin Coin (VITC) [BSC]
       category: ExperimentDAO
+    - name: Vitamin Coin (VITC) [TERRA]
+      category: ExperimentDAO
+    - name: Vitamin Coin (VITC) [ONE]
+      category: ExperimentDAO
     - name: VITCWONE LP (VITCWONE) [ONE]
       category: ExperimentDAO
     - name: Wax (WAXP) [WAX]
@@ -199,6 +203,8 @@ params:
     - name: ViCat (VICAT) [BSC]
       category: ExperimentDAO
     - name: Ananos (ANA) [ANA]
+      category: ExperimentDAO
+    - name: Ananos (ANA) [XLM]
       category: ExperimentDAO
     - name: Manangos (MANGO) [XLM]
       category: ExperimentDAO
@@ -292,6 +298,8 @@ params:
       category: Vite Gateway
     - name: Binance USD (BUSD) [ETH]
       category: Vite Gateway
+    - name: Binance USD (BUSD) [BSC]
+      category: Vite Gateway
     - name: Ripple (XRP-001) [XRP]
       category: Vite Gateway
     - name: EOS (EOS-003) [EOS]
@@ -305,6 +313,8 @@ params:
     - name: Ferrum Network (FRM-001) [ETH]
       category: Vite Gateway
     - name: Harmony (ONE-001) [ONE]
+      category: Vite Gateway
+    - name: Harmony (ONE-001) [BSC]
       category: Vite Gateway
     - name: Bitcoin Cash (BCH-001) [BCH]
       category: Vite Gateway
@@ -325,6 +335,8 @@ params:
     - name: HecoFi (HFI) [HECO]
       category: Vite Gateway
     - name: VITE (VITE) [ETH]
+      category: Vite Gateway
+    - name: VITE (VITE) [BSC]
       category: Vite Gateway
     - name: ViteX Coin (VX) [BSC]
       category: Vite Gateway
@@ -350,6 +362,8 @@ params:
       category: XGate
     - name: Polygon (MATIC) [BSC]
       category: XGate
+    - name: Polygon (MATIC) [MATIC]
+      category: XGate
     - name: PooCoin (POOCOIN) [BSC]
       category: XGate
     - name: Minato (MNTO) [BSC]
@@ -365,6 +379,10 @@ params:
     - name: VINUBNB PCS (VINUBNB) [BSC]
       category: XGate
     - name: VITA INU (VINU-001) [ETH]
+      category: XGate
+    - name: VITA INU (VINU-001) [BSC]
+      category: XGate
+    - name: VITA INU (VINU-001) [MATIC]
       category: XGate
 
   # What date format to use?
