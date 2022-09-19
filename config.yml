@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Vite Gateways Status
+title: Gateways Status
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -504,7 +504,7 @@ params:
   # on the footer and meta tags.
   #
   # Default: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
-  description: This webpage continuously monitor all gateways on vite.
+  description: This statuspage continuously monitors all gateways on Vite. Check which token is available for bridging here
 
   # Tabs on homepage
   # Uncomment to enable.
