@@ -292,6 +292,8 @@ params:
       category: Vite Gateway
     - name: Tether USD (USDT) [ETH]
       category: Vite Gateway
+    - name: Tether USD (USDT) [BSC]
+      category: Vite Gateway
     - name: Grin (GRIN) [GRIN]
       category: Vite Gateway
     - name: Ankr (ANKR) [ETH]
