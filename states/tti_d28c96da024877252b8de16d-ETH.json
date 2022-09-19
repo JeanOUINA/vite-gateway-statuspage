@@ -1,1 +1,1 @@
-[[1663545614690,"op"]]
+[[1663545614690,"op"],[1663584016956,"error:FetchError invalid json response body at https://gateways.thomiz.dev/eth/meta-info?tokenId=tti_d28c96da024877252b8de16d reason: Unexpected token < in JSON at position 0"]]
