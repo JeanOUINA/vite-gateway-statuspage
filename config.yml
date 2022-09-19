@@ -504,7 +504,8 @@ params:
   # on the footer and meta tags.
   #
   # Default: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
-  description: This statuspage continuously monitors all gateways on Vite. Check which token is available for bridging here
+  description: This statuspage continuously monitors all gateways on Vite. Check
+    which token is available for bridging here
 
   # Tabs on homepage
   # Uncomment to enable.
