@@ -232,6 +232,10 @@ params:
       category: ExperimentDAO
     - name: Canto (CANTO) [CANTO]
       category: ExperimentDAO
+    - name: Hashbit (HBIT) [HBIT]
+      category: ExperimentDAO
+    - name: WookCoin (NBD) [XLM]
+      category: ExperimentDAO
     - name: Kaspa (KAS) [Kaspa]
       category: GateK
     - name: Hedera (HBAR) [Hedera]
