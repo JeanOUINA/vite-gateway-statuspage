@@ -1,1 +1,1 @@
-[[1664377938801,"op"]]
+[[1664377938801,"op"],[1665676748488,"error:FetchError invalid json response body at https://gateway.vgate.io/gateway/eth/meta-info?tokenId=tti_b421f7ce27c2f383ee86c5ac reason: Unexpected token < in JSON at position 0"]]
