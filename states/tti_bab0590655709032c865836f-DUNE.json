@@ -1,1 +1,1 @@
-[[1664377936955,"error:FetchError invalid json response body at https://gateway.vgate.io/dune/meta-info?tokenId=tti_bab0590655709032c865836f reason: Unexpected token < in JSON at position 0"]]
+[[1664377936955,"error:FetchError invalid json response body at https://gateway.vgate.io/dune/meta-info?tokenId=tti_bab0590655709032c865836f reason: Unexpected token < in JSON at position 0"],[1666285891052,"error:FetchError request to https://gateway.vgate.io/dune/meta-info?tokenId=tti_bab0590655709032c865836f failed, reason: connect ETIMEDOUT 188.114.97.2:443"]]
