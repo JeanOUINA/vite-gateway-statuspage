@@ -1,1 +1,1 @@
-[[1664377935881,"error:FetchError invalid json response body at https://gateway.vgate.io/bismuth/meta-info?tokenId=tti_e80bcafb642ce4898857eccc reason: Unexpected token < in JSON at position 0"]]
+[[1664377935881,"error:FetchError invalid json response body at https://gateway.vgate.io/bismuth/meta-info?tokenId=tti_e80bcafb642ce4898857eccc reason: Unexpected token < in JSON at position 0"],[1666985360365,"error:FetchError request to https://gateway.vgate.io/bismuth/meta-info?tokenId=tti_e80bcafb642ce4898857eccc failed, reason: connect ETIMEDOUT 188.114.96.3:443"]]
