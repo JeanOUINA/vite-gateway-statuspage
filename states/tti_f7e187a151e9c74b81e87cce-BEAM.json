@@ -1,1 +1,1 @@
-[[1664377936913,"error:FetchError invalid json response body at https://gateway.vgate.io/beam/meta-info?tokenId=tti_f7e187a151e9c74b81e87cce reason: Unexpected token < in JSON at position 0"]]
+[[1664377936913,"error:FetchError invalid json response body at https://gateway.vgate.io/beam/meta-info?tokenId=tti_f7e187a151e9c74b81e87cce reason: Unexpected token < in JSON at position 0"],[1667071895275,"error:FetchError request to https://gateway.vgate.io/beam/meta-info?tokenId=tti_f7e187a151e9c74b81e87cce failed, reason: connect ETIMEDOUT 188.114.97.3:443"]]
