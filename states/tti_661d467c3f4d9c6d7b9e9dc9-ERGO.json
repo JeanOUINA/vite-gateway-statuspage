@@ -1,1 +1,1 @@
-[[1664377935937,"error:FetchError invalid json response body at https://gateway.vgate.io/ergo/meta-info?tokenId=tti_661d467c3f4d9c6d7b9e9dc9 reason: Unexpected token < in JSON at position 0"]]
+[[1664377935937,"error:FetchError invalid json response body at https://gateway.vgate.io/ergo/meta-info?tokenId=tti_661d467c3f4d9c6d7b9e9dc9 reason: Unexpected token < in JSON at position 0"],[1667158154221,"error:FetchError request to https://gateway.vgate.io/ergo/meta-info?tokenId=tti_661d467c3f4d9c6d7b9e9dc9 failed, reason: connect ETIMEDOUT 188.114.97.3:443"]]
