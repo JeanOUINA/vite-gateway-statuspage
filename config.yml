@@ -366,6 +366,8 @@ params:
       category: XGate
     - name: CENT (CENT) [BSC]
       category: XGate
+    - name: CENTBNB PCS (CENTBNB) [BSC]
+      category: XGate
     - name: Uniswap (UNI) [ETH]
       category: XGate
     - name: Polygon (MATIC) [BSC]
