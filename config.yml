@@ -394,6 +394,8 @@ params:
       category: XGate
     - name: VITA INU (VINU-001) [MATIC]
       category: XGate
+    - name: VITA INU (VINU-001) [OKC]
+      category: XGate
 
   # What date format to use?
   #
